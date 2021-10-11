@@ -8,6 +8,13 @@ Build the images and run the containers:
 $ docker-compose up -d --build
 ```
 
-The documentations:
+Start tests:
+
+```sh
+$ docker-compose exec web pytest
+```
+
+
+Documentations:
 
 [http://localhost:8002/docs](http://localhost:8002/docs)
